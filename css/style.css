@@ -22,12 +22,14 @@ h1 {
     font-size: 110px;
     margin-left: 80px;
     padding-top: 180px;
+    text-shadow: 2px 2px 3px black;
 }
 
 p {
     font-size: 20px;
     text-align: left;
     margin-left: 100px;
+    text-shadow: 2px 2px 1px black;
 }
 
 .menu-list {
@@ -37,10 +39,16 @@ p {
     justify-content: space-around;
     padding: 20px;
     color: white;
-    height: 200px;
 }
 
 .menu-list a {
     color: white;
     text-decoration: none;
+    align-items: center;
+    text-shadow: 2px 2px 4px white;
+}
+
+.menu-list a:hover {
+    color: white;
+    text-decoration: underline;
 }
