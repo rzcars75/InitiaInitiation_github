@@ -2,27 +2,45 @@ body {
     background-color: black;
     color: white;
     font-family: Barlow Semi Condensed;
+    margin: 0;
+    padding: 0;
 }
 
 .werenoi {
     height: 100px;
     width: auto;
 }
+
 .intro{
     background-image: url('/assets/ChatGPT_Image_12_juil._2026_a_19_06_08.png');
     height: 100vh;
     width: 100%;
-    align-items: center;
 }
 
 h1 {
     margin-top: 0;
-    font-size: 100px;
-    text-align: center;
-    align-items: center;
+    font-size: 110px;
+    margin-left: 80px;
+    padding-top: 180px;
 }
 
 p {
     font-size: 20px;
-    text-align: center;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.menu-list {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+    height: 200px;
+}
+
+.menu-list a {
+    color: white;
+    text-decoration: none;
 }
