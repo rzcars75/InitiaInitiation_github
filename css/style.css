@@ -11,7 +11,7 @@ body {
     width: auto;
 }
 
-.intro{
+.intro {
     background-image: url('/assets/ChatGPT_Image_12_juil._2026_a_19_06_08.png');
     height: 100vh;
     width: 100%;
@@ -29,7 +29,7 @@ p {
     font-size: 20px;
     text-align: left;
     margin-left: 100px;
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 2px 1px 1px black;
 }
 
 .menu-list {
@@ -45,7 +45,7 @@ p {
     color: white;
     text-decoration: none;
     align-items: center;
-    text-shadow: 2px 2px 4px white;
+    text-shadow: 1px 2px 3px white;
 }
 
 .menu-list a:hover {
