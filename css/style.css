@@ -11,10 +11,18 @@ body {
     width: auto;
 }
 
-.intro {
+#intro1 {
     background-image: url('/assets/ChatGPT_Image_12_juil._2026_a_19_06_08.png');
     height: 100vh;
     width: 100%;
+}
+
+#intro2 {
+    background-image: url('/assets/02d27ec3373feec709a20586902a86c2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
 }
 
 h1 {
@@ -51,4 +59,19 @@ p {
 .menu-list a:hover {
     color: white;
     text-decoration: underline;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.albums {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.album0{
+    box-shadow: 2px 4px 8px white;
 }
